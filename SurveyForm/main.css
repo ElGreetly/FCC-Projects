@@ -1,0 +1,90 @@
+body{padding: 0px;margin: 0px;font-family: monospace;background-color: #FEFEFE;}
+#title{
+    margin: 11px 0 0 0;
+    text-align: center;
+    color: darkred;
+}
+main{
+    background-color: rgba(211, 211, 211, 0.3);
+    width: 91%;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 9px;
+    text-align: center;
+    color: crimson;
+}
+.input-style{
+    margin: 9px auto;
+    width: 75%;
+    position: relative;
+}
+.input-style input{
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    height: 17px;
+    position: absolute;
+    left: 75px;
+    padding: 3px;
+    font-family: monospace;
+    font-size: 13px;
+}
+.inputs{
+    position: relative;
+    width: 70%;
+    height: 25px;
+}
+.input-style label{
+    position: absolute;
+    left:0;
+    top: 7px;
+}
+input[type="text"]{
+    width: 155px;
+}
+input[type="email"]{
+    width: 255px;
+}
+input[type="number"]{
+    width: 65px;
+}
+.qc{
+    width: 75%;
+    margin: 5px auto;
+    text-align: left;
+}
+ul{
+    list-style: none;
+    width: 70%;
+}
+li{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 11px;
+}
+#com-dev{
+    position: relative;
+    overflow: hidden;
+}
+#com-dev label {
+    position: relative;
+    bottom: 15px;
+    left: 0px;
+}
+textarea{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.9)
+}
+#submit{
+    margin: 25px auto 0 auto;
+    height: 41px;
+    width: 91px;
+    display: block;
+    font-size: 20px;
+    border: 1px solid #FEFEFE;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    background-color: rgb(233, 233, 233);
+    outline: none;
+}
