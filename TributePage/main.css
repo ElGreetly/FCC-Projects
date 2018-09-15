@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(255, 195, 117);
+    color: #414141;
+    border: 0px solid #fff;
+    border-radius: 9px;
+    text-align: center;
+}
+#title h1{
+    margin: 0px;
+    padding: 0px;
+}   
+#comment{
+    margin-top: -15px;
+    margin-bottom: 7px;
+}
+#img-div{
+    background-color: rgba(255,255,255,0.77);
+    width: 85%;
+    text-align: center;
+    padding: 9px;
+    margin: auto;
+    border-radius: 7px;
+    overflow: hidden;
+}
+img{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+  }
+#img-caption{
+    padding: 3px;
+}
+#tribute-info ul{
+    width: 75%;
+    text-align: left;
+    margin: auto;
+}
+#tribute-info h2{
+}
+#tribute-info li{
+    padding: 5px;
+}
