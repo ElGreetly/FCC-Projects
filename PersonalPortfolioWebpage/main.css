@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5f9ff;
+}
+header{
+    width: 100%;
+    z-index: 2;
+}
+nav{
+    position: relative;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+nav li{
+    display: inline-block;
+    margin: 11px 11px 0 0;
+    color: white;
+}
+main{
+    text-align: center;
+}
+#welcome-section{
+    position: relative;
+}
+#layer{
+    z-index: -1;
+    
+}
+#svg{
+    transform: scale(0.37);
+    position: absolute;
+    top: -53%;
+    left: -25%;
+}
+#short-msg{
+    position: absolute;
+    top: 29%;
+    right: 0px;
+    width: 55%;
+    color: white;
+    padding: 11px;
+}
+#short-msg h1{
+    font-size: 3vw;
+    margin: 0px;
+}
+#short-msg p{
+    font-size: 2vw;
+}
+#projects{
+    width: 75%;
+    margin: 25px auto;
+}
+#my-work{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.border{
+    width: 30.33%;
+    display: inline-block;
+    margin: 0 1.5%;
+    border-radius: 4%;
+    background-color: #237AF9;
+}
+.thumbnail{
+    width: 98.18%;
+    height: 98.5%;
+    background-color: #fff;
+    border: 0 solid;
+    border-radius: 4%;
+    margin: 0.83% auto 0 auto;
+    overflow: hidden;
+}
+.thumbnail h3{
+    margin: 0;
+    color: #333;
+    padding: 1vw;
+}
+.thumbnail a{
+    text-decoration: none;
+}
+.thumbnail img{
+    width: 100%;
+}
